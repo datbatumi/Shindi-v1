@@ -1,0 +1,34 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #FF004D;
+  color: white;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.portfolio-slider, .services, .testimonials, .lead-form, .footer {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+button {
+  background: #4A10FF;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
